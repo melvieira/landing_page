@@ -1,0 +1,33 @@
+h1 {
+  color: white;
+  font-size: 30px;
+}
+.grid-container {
+  display: inline-grid;
+}
+.grid-items {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: red;
+}
+img {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+nav {
+  display: inline;
+  margin: 0;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-content: center;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  z-index: 2;
+}
