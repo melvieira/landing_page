@@ -21,11 +21,6 @@ h3 {
   font-weight: bold;
 }
 
-.visitChicago {
-  /* background-color: red; */
-  padding-bottom: auto;
-}
-
 .button {
   background-color: rgb(34, 29, 29, 0.8);
   padding: 10px;
@@ -37,10 +32,6 @@ h3 {
 }
 
 .main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.002)),
-    url(/resources/images/mainpic.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 1300px;
   height: 700px;
 }
